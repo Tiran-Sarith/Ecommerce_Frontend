@@ -31,7 +31,7 @@ const Hero = () => {
 ))}
         </div>
         </div>
-        <div className='relative flex justify-between items-center bg-amber-300 items-center 
+        <div className='relative flex justify-between items-center items-center 
         xl:min-h-screen max-xl basis-250 mr-8'>
           <img src={bigShoe1}
           alt="show collection"

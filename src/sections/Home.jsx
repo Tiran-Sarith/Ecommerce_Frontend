@@ -8,9 +8,11 @@ import Subscribe from "./Subscribe";
 import SupperQuality from "./SupperQuality";
 
 
+
 export default function Home() {
     return(
         <main className="relative">
+
         <section className="xl:ps-10 sm:ps-5 ps-3"><Hero/></section>
         <section className="xl:ps-10 sm:ps-5 ps-3 py-20"><PopularProducts/></section>
         <section className="xl:ps-10 sm:ps-5 ps-3 py-20"><SupperQuality/></section>
@@ -20,7 +22,8 @@ export default function Home() {
         <section className="xl:ps-10 sm:ps-5 ps-3 py-20"><Subscribe/></section>
         <section className="xl:ps-10 sm:ps-5 ps-3 py-20 bg-black text-white"><Footer/></section>
 
-
+        
+    
         </main>
     );
 }

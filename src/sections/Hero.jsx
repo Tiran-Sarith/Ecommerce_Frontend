@@ -10,7 +10,7 @@ const Hero = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10"
       >
-        <div className='bg-amber-600 relative flex flex-col justify-center items-start w-full pt-28'>
+        <div className='relative flex flex-col justify-center items-start w-full pt-28'>
         <p className='text-xl font-bold text-red-400'> Our Summer Collection</p>
         <h1 className='font-sans mt-10 text-8xl max-sm:text-[62px] max-sm:leading-[1] font-bold text-gray-800'>
           <span className='xl:bg-white xl:whitespace-nowrap '> The New Arrival</span>

@@ -14,11 +14,10 @@ spec:
     spec:
       containers:
       - name: backend
-        image: your-docker-hub-username/backend:latest
+        image: tiransarith/ecommerce-backend-1-10:2
         ports:
         - containerPort: 8070
         env:
-        - name: MONGO_URI
-          value: "mongodb://mongo-service:27017/mydb"  # Change as per your DB setup
-        - name: NODE_ENV
-          value: "production"
+        - name: MONGODB_URL
+          value: "mongodb+srv://tiransarith:n_48.k*pUEthKZN@cluster0.r9ebr5n.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=Cluster0"  # Change as per your DB setup
+        

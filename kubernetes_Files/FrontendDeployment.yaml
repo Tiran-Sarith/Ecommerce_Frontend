@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-docker-hub-username/frontend:latest
+        image: tiransarith/build-1-10:10
         ports:
         - containerPort: 5173
     env:
       - name: VITE_API_BASE_URL
-        value: http://backend-service/api  # Change as per your backend service name
+        value: "http://backend-service/api/"  # Change as per your backend service name
+        #change the commas and try then remove api and try

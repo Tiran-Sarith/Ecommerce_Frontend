@@ -8,11 +8,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+
 function PopularProducts() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8070/api/product/get')
+    axios.get(`${API_BASE_URL}product/get`)
       .then(response => {
         setProducts(response.data);
       })

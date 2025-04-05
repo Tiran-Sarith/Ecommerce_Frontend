@@ -47,7 +47,7 @@ function PopularProducts() {
             </CardContent>
             <CardActions>
               <Button size="small">Buy now</Button>
-              <Button size="small">View mo</Button>
+              <Button size="small">View more</Button>
             </CardActions>
           </Card>
         </Grid>

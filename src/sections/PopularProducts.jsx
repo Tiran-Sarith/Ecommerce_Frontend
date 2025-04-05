@@ -46,7 +46,7 @@ function PopularProducts() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button size="small">Buy now</Button>
+              <Button size="small">now</Button>
               <Button size="small">View</Button>
             </CardActions>
           </Card>
